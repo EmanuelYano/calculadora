@@ -1,0 +1,33 @@
+@charset "utf-8";
+.num{
+	position: absolute;
+	top:22%;
+	left: 49%;
+	border:2px solid black;
+	width: 50%;
+	height: 71%;
+}
+.num-1{
+	position: absolute;
+	top:58%;
+	left: 4%;
+	border:2px solid black;
+	width: 92%;
+	height: 40%;
+}
+.num-2{
+	position: absolute;
+	top:69%;
+	left: 4%;
+	border:2px solid black;
+	width: 92%;
+	height: 30%;
+}
+.num-3{
+	position: absolute;
+	top:69%;
+	left: 4%;
+	border:2px solid black;
+	width: 92%;
+	height: 30%;
+}

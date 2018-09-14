@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+	function mostra_proprio()
+	{
+
+	document.getElementById('mostrar_proprio').style.display=" block";
+	}
+	function mostra__correio()
+	{
+	document.getElementById('mostrar_correios').style.display="block";
+	}
+	</script>
+
+	<input type="radio" name="frete" value="mostrar_proprio" id="proprio" onclick="mostra_proprio()"> Frete Próprio
+	<input type="radio" name="frete" value="mostrar_correios" id="proprio" onclick="mostra__correio()"> Frete Correios
+
+	<label id="mostrar_proprio" for="mostraproprio" style="display: none">
+	<input type="text" name="frete_proprio" id="mostraproprio" maxlength="150" size="45" placeholder="AAAAAAAAAAA">
+	</label>
+
+	<label id="mostrar_correios" for="mostracorreios" style="display: none">
+	<input type="text" name="frete_correios" id="mostracorreios" maxlength="150" size="45">
+	</label>
+</body>
+</html>

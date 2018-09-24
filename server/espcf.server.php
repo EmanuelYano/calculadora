@@ -21,10 +21,14 @@
 			$r = $formulas1 -> especific_two($x,$y,$z,$z1);
 			echo "$x / $y * ($z1-$z) = " ;
 			break;
-		case 'l4':
-			$r = $formulas1 -> especific_three($x,$y,$z);
-			echo "$x / $y * $z = ";
+		case 'l5':
+			$r = $formulas1 -> especific_three($x,$y,$z,$z1);
+			echo "($x / ($y * $z)) + $z1 = ";
 			break;		
+		case 'l4':
+			$r = $formulas1 -> especific_four($x,$y,$z,$z1);
+			echo "(-1 *($x / ($y * $z))) = ";
+			break;
 		}
 		echo $r;
 	}	

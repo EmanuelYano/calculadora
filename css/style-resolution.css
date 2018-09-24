@@ -24,10 +24,10 @@
 	height: 30%;
 }
 .num-3{
-	position: absolute;
-	top:69%;
+	position: relative;
 	left: 4%;
 	border:2px solid black;
 	width: 92%;
-	height: 30%;
+	height: 50%;
+	margin-top: 15%;
 }

@@ -24,9 +24,13 @@
 		{
 			return $x / ($y*($z1-$z));
 		}
-		function especific_three($x,$y,$z)
+		function especific_three($x,$y,$z,$z1) //calcular T final
 		{
-			return $x / ($y*$z);
+			return ($x / ($y * $z)) + $z1;
+		}
+		function especific_four($x,$y,$z,$z1) //calcular T inicial
+		{
+			return (($x / ($y * $z)) - $z1);
 		}
 	}
 ?>

@@ -30,7 +30,7 @@
 		}
 		function especific_four($x,$y,$z,$z1) //calcular T inicial
 		{
-			return (($x / ($y * $z)) - $z1);
+			return (-1*($x / ($y * $z)) - $z1);
 		}
 	}
 ?>
